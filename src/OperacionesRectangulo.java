@@ -5,7 +5,7 @@ public class OperacionesRectangulo {
 	
 	public static void main(String[] args) {
 		
-		double altura, resultadoArea, resultadoPerimetro;
+		double altura, base, resultadoArea, resultadoPerimetro;
 		Rectangulo operaciones = new Rectangulo();
 		
 		Scanner sc = new Scanner(System.in);
