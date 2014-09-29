@@ -16,8 +16,8 @@ public class OperacionesRectangulo {
 		System.out.print("\ningresa base: ");
 		base = sc.nextDouble();
 
-		resultadoArea = operaciones.area(alt, bas);		
-		resultadoPerimetro = operaciones.perimetro(alt, bas);
+		resultadoArea = operaciones.area(altura, base);		
+		resultadoPerimetro = operaciones.perimetro(altura, base);
 
 		System.out.println("\nEl resultado AREA es: " + resultadoArea);
 		System.out.println("\nEl resultado PERIMETRO es: " + resultadoPerimetro);
