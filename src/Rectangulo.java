@@ -31,18 +31,18 @@ public class Rectangulo {
 		return altura;
 	}	
 
-	public void setAltura(double altura) {
+	public void setAltura(double alt) {
 
-		
+		altura = alt;
 	} 
 	public double getBase() {
 
 		return base;
 	}	
 
-	public void setBase(double base) {
+	public void setBase(double bas) {
 
-		
+		base = bas;
 	} 
 
 }

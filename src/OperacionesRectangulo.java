@@ -11,13 +11,14 @@ public class OperacionesRectangulo {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("\ningresa altura: ");
 		altura = sc.nextDouble();
-
+		operaciones.setAltura(altura);
 		
 		System.out.print("\ningresa base: ");
 		base = sc.nextDouble();
+		operaciones.setBase(base);
 
-		resultadoArea = operaciones.area(altura, base);		
-		resultadoPerimetro = operaciones.perimetro(altura, base);
+		resultadoArea = operaciones.area();		
+		resultadoPerimetro = operaciones.perimetro();
 
 		System.out.println("\nEl resultado AREA es: " + resultadoArea);
 		System.out.println("\nEl resultado PERIMETRO es: " + resultadoPerimetro);
